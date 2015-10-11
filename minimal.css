@@ -41,6 +41,7 @@ footer ul li { display:inline; list-style:none; padding-left:20px; }
 .col-10 { width: 82.5%; }
 .col-11 { width: 91%; }
 .col-12 { width: 100%;  }
+.col-13 { width: 90;}
 
 /* Typography */
 a { color: #105CB6; text-decoration: none; }
