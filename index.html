@@ -2,68 +2,238 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Personal Website</title>
-    <link href="minimal.css" rel="stylesheet">
-    <style type="text/css"></style>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Alitsiya Yusupova. Personal website</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-    <div class="container">
-        <header>
-            <a class="logo" href="">Alitsiya Yusupova</a>
-            <nav class="float-right">
-                <ul>
-                    <li><a href="https://github.com/alitsiya">My github</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="row">
-            <div class="col-12">
-                <img class="center" src="8.jpg">
-            </div>
-            <br>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-8">
-                <h1>Hello there, this is my personal website</h1>
-                <hr> My name is Alitsiya Yusupova, I'm a photographer, learning to code and mother of 16 month baby girl Mila. Originaly I'm from Moscow, Russia and now I live in San Francisco.
-            </div>
-            <div class="col-4">
-                <h3>Menu</h3>
-                <ul>
-                    <li>Main</li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                </ul>
+<body id="page-top">
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Alitsiya Yusupova</h1>
+                <hr>
+                <p>Hello! My name is Alitsiya Yusupova. I'm currently live in San Francisco</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
             </div>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-4">
-                <h2>365. Photography</h2>
-                <p>I started 365 project on January 1st this year. The idea is to take at least one photo every day during 365 days and post it online. It's a good exercise to improve my photographic skills and also I have a lot of fun thinking of what I should shoot next. I post pictures <a href="https://flic.kr/s/aHsk6GRtA4">here, of Flickr</a>.</p>
-            </div>
-            <div class="col-4">
-                <h2>Programming</h2>
-                <p>I wrote my first program at High School, it was written on Basic. For last year I try to code each free minute. I completed several Coursera classes, two Codeacademy tutorials and have two online web-sites which use <a href="https://damp-oasis-9090.herokuapp.com/">Jango</a> and <a href="http://ayudacityblog.appspot.com/">Google App Engine</a>. First one was created during Hello Web App workshop by Tracy Osborn. Second one is Udacity Web Development free course. </p>
-                <img src="Programming1.jpg" alt="Hello Web App Tutorial" width="100%">
-            </div>
-            <div class="col-4">
-                <h2>Mila</h2>
-                <p>
-                    I've beeng doing this project since May 24th, 2014. And this one is the toughest. It takes a lot of work and time to raise a kid. But the output is amaizing! I never been so happy in my entire life. </p>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Software Engineer Fellow at Hackbright</h2>
+                    <hr class="light">
+                    <p class="text-faded">I'm currently attending coding bootcamp in San Francisco and soon will be open to job offers. I'm really passionate about coding and completed numerous number of online courses. At Hackbright I'm learning how to put my knowledge together for real world experience building application from scratch.</p>
+                </div>
             </div>
         </div>
-        <footer>
-            <div class="col-6">
-                Copyright
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">My projects</h2>
+                    <hr class="primary">
+                </div>
             </div>
-            <div class="col-6">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
+                        <h3>HireBright</h3>
+                        <p class="text-muted">This app is my solo project at HackBright. The idea is to build tool for HR with ability to search for right candidates through resume data. It also has remote code sharing feature which build with help of Websockets.</p>
+                        <p><a href="https://github.com/alitsiya/HireBright">Github</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Heroku "Hello Web App"</h3>
+                        <p class="text-muted">This project was completed during one day coding 'Hello Web App' workshop led by Tracy Osborn. I learned how to write app using Python, Django, Jinja2 and MySQL. </p>
+                        <p><a href="https://damp-oasis-9090.herokuapp.com/">Website</a><br>
+                            <a href="https://github.com/alitsiya/hellowebapp">Github</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Personal Blog</h3>
+                        <p class="text-muted">From online class on Udacity I learned how to build a blog on Google App Engine Paltform. I used webapp2, Jinja2 and Google Datastore. This project has cookies, login, logout options.</p>
+                        <p><a href="http://ayudacityblog.appspot.com/blog">Website</a><br>
+                            <a href="https://github.com/alitsiya/Unit3-blog-">Github</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Hobbies</h3>
+                        <p class="text-muted">I'm also a Photographer and I'm a contributor of Microstock Photo  Agencies. I love taking pictures and explore areas around me. My favorite subject is wildlife.</p>
+                    </div>
+                </div>
             </div>
-        </footer>
-    </div>
+        </div>
+    </section>
+
+<!--     <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>Do you find common interest with me or know person who is hiring? Send an email and I'll get back to you as soon as possible!</p>
+                </div><br>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:alitsiya.yusupova@gmail.com">alitsiya.yusupova@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
 </body>
 
 </html>
