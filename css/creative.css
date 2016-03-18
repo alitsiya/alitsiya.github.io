@@ -30,6 +30,9 @@ a {
     -moz-transition: all .35s;
     transition: all .35s;
 }
+a#email {
+    color: #ffffff;
+}
 
 a:hover,
 a:focus {
@@ -52,6 +55,10 @@ p {
 }
 
 .bg-primary {
+    background-color: #f05f40;
+}
+
+section#contact {
     background-color: #f05f40;
 }
 
